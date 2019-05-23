@@ -377,6 +377,13 @@ img {
     box-shadow: inset 80px 80px 250px #000, inset -80px -80px 250px #000;
   }
 
+  .container {
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0.1rem;
+  }
+
   #tab-1-content .tab-1-content-inner {
     grid-template-columns: 1fr;
     text-align: center;
