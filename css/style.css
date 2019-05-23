@@ -374,7 +374,7 @@ img {
 
 @media (max-width: 700px) {
   .showcase::after {
-    box-shadow: inset 80px 80px 250px #000, inset -80px -80px 250px #000;
+    box-shadow: inset 50px 50px 150px #000, inset -50px -50px 150px #000;
   }
 
   .container {
