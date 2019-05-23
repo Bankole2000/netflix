@@ -93,8 +93,8 @@ img {
 }
 
 .showcase-content h1 {
-  font-weight: 700;
-  font-size: 5.2rem;
+  font-weight: 600;
+  font-size: 4rem;
   line-height: 1.1;
   margin: 0 0 2rem 0;
 }
@@ -299,7 +299,7 @@ img {
 }
 
 .btn-xl {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
