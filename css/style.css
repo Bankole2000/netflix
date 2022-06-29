@@ -291,7 +291,7 @@ img {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .btn-rounded {
@@ -313,6 +313,24 @@ img {
 .btn-icon {
   margin-left: 0.5rem;
 }
+
+.btn-download{
+  width:135px;
+  margin-top: 5%;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  border:2px Solid var(--primary-color);
+}
+.btn-download-transparent{
+  background-color: Transparent;
+  width:135px;
+  margin-top: 5%;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  border:2px Solid var(--primary-color);
+
+}
+
 
 /*  Media Queries  */
 @media (max-width: 960px) {
