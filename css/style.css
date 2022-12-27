@@ -412,3 +412,10 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+.footer-elements:hover{
+  text-decoration: underline;
+}
+.footer-elements:active{
+  text-decoration: underline;
+}
