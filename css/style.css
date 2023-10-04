@@ -39,7 +39,53 @@ p {
 img {
   width: 100%;
 }
+/* .language-dropdown {
+  position: absolute;
+  top: 50%;
+  right: 90px; /* Adjust this value based on the exact placement you want */
+  /* transform: translateY(-50%); */
+/* } */
+/*  */
+/* .language-dropdown select {
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
 
+.language-dropdown select:focus {
+  outline: none; */
+/* } */ 
+
+.header-controls {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  /* gpx;  You can adjust this gap for spacing between dropdown and button */
+  padding: 15px;
+  transform: translateY(-50%);
+}
+
+.language-dropdown select {
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.language-dropdown select:focus {
+  outline: none;
+}
+
+.header-controls .btn{
+  margin-right: 70px;
+}
 .showcase {
   width: 100%;
   height: 100vh;
